@@ -13,7 +13,7 @@ FROM openjdk:11-jre-slim
 # Now that we've packaged the application, it sets in the target folder as a JAR file
 # We can inspect the pom.xml to deduce what the name of the jar file is (artifact-id and version)
 # Copying the jar file to a new location
-COPY --from=build /home/app/target/complaint-submission-application-0.0.1-SNAPSHOT.jar /usr/local/lib/demo.jar
+COPY --from=build /home/app/target/complaint-submissions-j11-0.0.1-SNAPSHOT.jar /usr/local/lib/demo.jar
 
 # Expose the port from the container, so we can access from our host machine
 EXPOSE 8080
