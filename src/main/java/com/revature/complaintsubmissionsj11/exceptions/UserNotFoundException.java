@@ -1,4 +1,4 @@
-package com.revature.complaintsubmissionapplication.exceptions;
+package com.revature.complaintsubmissionsj11.exceptions;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,8 +1,8 @@
-package com.revature.complaintsubmissionapplication.controller;
+package com.revature.complaintsubmissionsj11.controller;
 
-import com.revature.complaintsubmissionapplication.dto.MeetingContent;
-import com.revature.complaintsubmissionapplication.entity.Meeting;
-import com.revature.complaintsubmissionapplication.service.MeetingService;
+import com.revature.complaintsubmissionsj11.dto.MeetingContent;
+import com.revature.complaintsubmissionsj11.entity.Meeting;
+import com.revature.complaintsubmissionsj11.service.MeetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

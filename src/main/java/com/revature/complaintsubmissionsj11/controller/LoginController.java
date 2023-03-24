@@ -1,16 +1,16 @@
-package com.revature.complaintsubmissionapplication.controller;
+package com.revature.complaintsubmissionsj11.controller;
 
-import com.revature.complaintsubmissionapplication.dto.AppUserReturnInfo;
-import com.revature.complaintsubmissionapplication.dto.LoginForm;
-import com.revature.complaintsubmissionapplication.entity.AppUser;
-import com.revature.complaintsubmissionapplication.exceptions.UserNotFoundException;
-import com.revature.complaintsubmissionapplication.service.AppUserService;
+import com.revature.complaintsubmissionsj11.dto.AppUserReturnInfo;
+import com.revature.complaintsubmissionsj11.dto.LoginForm;
+import com.revature.complaintsubmissionsj11.entity.AppUser;
+import com.revature.complaintsubmissionsj11.exceptions.UserNotFoundException;
+import com.revature.complaintsubmissionsj11.service.AppUserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @RestController
 @RequestMapping("/login")

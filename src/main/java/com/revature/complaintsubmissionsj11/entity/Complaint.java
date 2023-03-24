@@ -1,6 +1,6 @@
-package com.revature.complaintsubmissionapplication.entity;
+package com.revature.complaintsubmissionsj11.entity;
 
-import com.revature.complaintsubmissionapplication.dto.ComplaintContent;
+import com.revature.complaintsubmissionsj11.dto.ComplaintContent;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
